@@ -73,6 +73,7 @@ while True:
     user_input = input("\nDo you want another headline? (yes/no): ").strip().lower()
     if user_input in {"no", "n"}:
         break
+    
     if user_input not in {"yes", "y"}:
         print("Please type yes or no.")
 
